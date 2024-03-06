@@ -9,7 +9,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+        <nav className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
                 <img src={Logo} alt='Logo Image' className='w-[50px]' />
             </div>
@@ -67,8 +67,8 @@ const Navbar = () => {
                     
                 </ul>
             </div>
-        </div>
-  )
+        </nav>
+    )
 }
 
 export default Navbar;
