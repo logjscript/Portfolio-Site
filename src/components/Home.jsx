@@ -10,7 +10,7 @@ const Home = () => {
                 <p className='text-[#808bab] text-lg py-4 max-w-[700px]'>I am a self-taught developer looking for my first role in the industry. I began coding a year and a half ago and have focused on building quick and responsive apps with eye-appealing user-interface. </p>
                 
                 <div>
-                    <button className='text-white bg-[#2b3c6d] group px-6 py-3 my-2 flex items-center  hover:bg-[#d81b60]'>View Projects 
+                    <button className='text-white bg-[#2b3c6d] group px-6 py-3 my-2 flex items-center rounded-md hover:bg-[#d81b60]'>View Projects 
                         <span className='group-hover:rotate-90 duration-300'>
                             <HiArrowNarrowRight className='ml-3'/>
                         </span>
