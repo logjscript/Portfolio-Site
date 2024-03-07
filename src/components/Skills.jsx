@@ -16,14 +16,14 @@ const Skills = () => {
         {path: github, name: 'Github'},
     ];
     return (
-        <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300 px-8'>
+        <div name='skills' className='w-full h-screen bg-[#EEEDE2] text-[#4f5f8d] px-8'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#d81b60]'>Skills</p>
-                    <p className='py-4'>These are the technologies I have worked with so far:</p>
+                    <p className='text-6xl text-[#2b3c6d] font-bold inline border-b-4 border-[#d81b60]'>Skills</p>
+                    <p className='pt-6 text-xl '>These are the technologies I have worked with so far</p>
                 </div>
 
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
+                <div className='w-full grid justify-center sm:justify-start grid-cols-[repeat(2,minmax(100px,140px))] sm:grid-cols-[repeat(auto-fit,140px)] gap-4 text-center pt-6'>
                     {images.map(image => {
                         return <Icon path={image.path} name={image.name} key={image.name} />
                     })}
