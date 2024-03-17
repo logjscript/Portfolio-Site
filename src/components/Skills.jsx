@@ -16,7 +16,7 @@ const Skills = () => {
         {path: github, name: 'Github'},
     ];
     return (
-        <div name='skills' className='w-full h-screen bg-[#EEEDE2] text-[#4f5f8d] px-16'>
+        <div name='skills' className='w-full h-screen bg-gray-50 text-[#4f5f8d] px-16'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
                     <h2 className='text-6xl text-[#2b3c6d] font-bold inline border-b-4 border-[#d81b60]'>Skills</h2>

@@ -1,8 +1,9 @@
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
-        <div name='home' className='w-full h-screen bg-[#EEEDE2]'>
+        <div name='home' className='w-full h-screen bg-gray-50'>
             <div className='max-w-[1000px] mx-auto px-16 flex flex-col justify-center h-full'>
                 <p className='text-[#d81b60] text-lg'>Hi, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#2b3c6d]'>Logan Dietel</h1>
@@ -10,11 +11,13 @@ const Home = () => {
                 <p className='text-[#808bab] text-lg py-4 max-w-[700px]'>I am a self-taught developer looking for my first role in the industry. I began coding a year and a half ago and have focused on building quick and responsive apps with eye-appealing user-interface. </p>
                 
                 <div>
-                    <button className='text-white bg-[#2b3c6d] group px-6 py-3 my-2 flex items-center rounded-md hover:bg-[#d81b60]'>View Projects 
-                        <span className='group-hover:rotate-90 duration-300'>
-                            <HiArrowNarrowRight className='ml-3'/>
-                        </span>
-                    </button>
+                    <Link to="work" smooth={true} duration={500}>
+                        <button className='text-white bg-[#2b3c6d] group px-6 py-3 my-2 flex items-center rounded-md hover:bg-[#d81b60]'>View Work 
+                            <span className='group-hover:rotate-90 duration-300'>
+                                <HiArrowNarrowRight className='ml-3'/>
+                            </span>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
