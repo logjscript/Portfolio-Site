@@ -17,7 +17,7 @@ const Project = ({ projectImg }) => {
             <img 
                 src={projectImg} 
                 alt='Image of a Project'
-                className='w-full h-full aspect-[20/17] object-cover rounded-2xl' 
+                className='w-full h-full aspect-[10/7] object-cover rounded-2xl' 
             />
 
             <div className={classes}>
