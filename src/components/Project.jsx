@@ -26,13 +26,17 @@ const Project = ({ projectImg }) => {
                 </div>
 
                 <div className='pt-4 text-center'>
-                    <a href='/'> {/* add link to demo here */}
+                    <a href='https://pacific-clothing.onrender.com'
+                        target='_blank'
+                    >
                         <button className='text-center rounded-lg px-4 py-3 m-1 bg-gray-50 text-[#2b3c6d] font-bold text-lg'>
                             Demo
                         </button>
                     </a>
 
-                    <a href='/'> {/* add link to code here */}
+                    <a href='https://github.com/logjscript/Pacific-Clothing'
+                        target='_blank'
+                    > 
                         <button className='text-center rounded-lg px-4 py-3 m-1 bg-gray-50 text-[#2b3c6d] font-bold text-lg'>
                             Code
                         </button>
