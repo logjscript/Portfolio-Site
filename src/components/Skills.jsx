@@ -23,7 +23,7 @@ const Skills = () => {
                     <p className='pt-6'>These are the technologies I am proficient with</p>
                 </div>
 
-                <div className='w-full grid justify-center grid-cols-[repeat(2,minmax(60px,110px))] sm:grid-cols-[repeat(auto-fit,140px)] gap-4 text-center pt-6 px-8'>
+                <div className='w-full grid justify-center grid-cols-[repeat(2,minmax(60px,110px))] sm:grid-cols-[repeat(auto-fit,140px)] gap-4 text-center pt-6 px-8 sm:px-0'>
                     {images.map(image => {
                         return <Icon path={image.path} name={image.name} key={image.name} />
                     })}
