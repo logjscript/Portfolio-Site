@@ -21,8 +21,8 @@ const Project = ({ projectImg }) => {
             />
 
             <div className={classes}>
-                <div className='text-2xl font-bold text-white tracking-wider'>
-                    JS Desktop Application
+                <div className='text-2xl sm:text-4xl font-bold text-white tracking-wider'>
+                    Pacific Clothing
                 </div>
 
                 <div className='pt-4 text-center'>
