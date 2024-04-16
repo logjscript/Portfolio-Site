@@ -20,7 +20,7 @@ const Skills = () => {
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full'>
                 <div className='w-full text-center'>
                     <h2 className='text-4xl sm:text-6xl text-[#2b3c6d] font-bold inline border-b-4 border-[#d81b60] '>Skills</h2>
-                    <p className='pt-6'>These are the technologies I am proficient with</p>
+                    <p className='pt-6'>These are the technologies I am proficient in</p>
                 </div>
 
                 <div className='w-full grid justify-center grid-cols-[repeat(2,minmax(60px,110px))] sm:grid-cols-[repeat(auto-fit,140px)] gap-4 text-center pt-6 px-8 sm:px-0'>
