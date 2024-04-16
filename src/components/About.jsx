@@ -12,7 +12,7 @@ const About = () => {
                         <p className='text-center'>Hi, I'm Logan. It's nice to meet you.</p>
                     </div>
                     <div>
-                        <p className='text-justify'>As a frontend developer with a background in business and law, I bring a unique combination of technical skills and a keen eye for detail. I have a passion for creating visually appealing user interfaces that promote the user experience. With exceptional team-working skills and the ability to convey ideas effectively, I thrive in collaborative environments. I am constantly looking to expand my knowledge of the frontend.</p>
+                        <p className='text-justify'>As a software developer with a background in business and law, I bring a unique combination of technical skills, social skills, and a keen eye for detail. I have a passion for creating apps that promote the user experience. With exceptional team-working skills and the ability to convey ideas effectively, I thrive in collaborative environments. I am constantly looking to expand my knowledge in the field of software developing.</p>
                     </div>
                 </div>
             </div>
