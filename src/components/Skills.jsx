@@ -1,5 +1,5 @@
-import html from '../assets/html.png'
-import css from '../assets/css.png'
+import postgres from '../assets/postgres.png'
+import node from '../assets/node.png'
 import tailwind from '../assets/tailwind.png'
 import javaScript from '../assets/javascript.png'
 import reactLogo from '../assets/react.png'
@@ -8,12 +8,12 @@ import Icon from './Icon'
 
 const Skills = () => {
     const images = [
-        {path: html, name: 'HTML'}, 
-        {path: css, name: 'CSS'}, 
-        {path: tailwind, name: 'Tailwind'}, 
         {path: javaScript, name: 'JavaScript'}, 
         {path: reactLogo, name: 'React'}, 
+        {path: tailwind, name: 'Tailwind'}, 
         {path: github, name: 'Github'},
+        {path: node, name: 'Node.js'}, 
+        {path: postgres, name: 'PostgreSQL'}, 
     ];
     return (
         <div name='skills' className='sm:text-xl w-full h-screen bg-gray-50 text-[#4f5f8d] px-4 sm:px-16'>
