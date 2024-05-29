@@ -3,7 +3,7 @@ import node from '../assets/node.png'
 import tailwind from '../assets/tailwind.png'
 import javaScript from '../assets/javascript.png'
 import reactLogo from '../assets/react.png'
-import github from '../assets/github.png'
+import cSharp from '../assets/cSharp.png'
 import Icon from './Icon'
 
 const Skills = () => {
@@ -11,7 +11,7 @@ const Skills = () => {
         {path: javaScript, name: 'JavaScript'}, 
         {path: reactLogo, name: 'React'}, 
         {path: tailwind, name: 'Tailwind'}, 
-        {path: github, name: 'Github'},
+        {path: cSharp, name: 'c#'},
         {path: node, name: 'Node.js'}, 
         {path: postgres, name: 'PostgreSQL'}, 
     ];
